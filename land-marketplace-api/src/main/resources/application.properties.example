@@ -1,0 +1,13 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/land_marketplace
+spring.datasource.username=postgres
+spring.datasource.password=changeme
+spring.jpa.hibernate.ddl-auto=update
+
+spring.mail.host=localhost
+spring.mail.port=1025
+spring.mail.properties.mail.smtp.auth=false
+spring.mail.properties.mail.smtp.starttls.enable=false
+
+app.jwt.secret=replace-with-a-long-random-secret
+app.jwt.expiration-ms=86400000
+app.frontend-url=http://localhost:5173
