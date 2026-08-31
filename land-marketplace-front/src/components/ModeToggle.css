@@ -1,0 +1,32 @@
+.mode-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.mode-toggle__button {
+  font: inherit;
+  font-size: 0.9rem;
+  text-align: left;
+  width: 100%;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.mode-toggle__button:hover {
+  background: var(--color-surface-alt);
+}
+
+.mode-toggle__button--active {
+  background: var(--color-accent-green);
+  color: var(--color-on-accent);
+}
+
+.mode-toggle__clear {
+  border-color: var(--color-border);
+  color: var(--color-accent-terracotta);
+}
