@@ -1,0 +1,12 @@
+# Local-only project/study notes (not meant for the public portfolio repo)
+CLAUDE.md
+information.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
